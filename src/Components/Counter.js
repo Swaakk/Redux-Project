@@ -1,4 +1,4 @@
-import react,{useState} from "react";
+import {useState} from "react";
 
 
 function Counter() {
@@ -9,7 +9,7 @@ function Counter() {
         count +1
       )
     })
-  }
+  };
 
   const decrement=()=>{
     setCount(count=>{
